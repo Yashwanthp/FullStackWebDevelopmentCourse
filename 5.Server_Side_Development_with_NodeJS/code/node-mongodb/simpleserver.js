@@ -12,6 +12,7 @@ MongoClient.connect(url, function (err, db) {
     assert.equal(err, null);
     console.log("Connected correctly to server");
 
+
     var collection = db.collection("dishes");
 
     // insert a document into collection
